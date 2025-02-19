@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicii IT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Servicii IT</h1>
+    </header>
+    <main>
+        <section class="services">
+            <h2>Oferte</h2>
+            <ul>
+                <li>
+                    <strong>Stick pentru instalare Windows/Linux</strong> - 20 lei
+                </li>
+                <li>
+                    <strong>Activez Windows 10/11</strong> - 100 lei
+                </li>
+                <li>
+                    <strong>Instalez Windows + Activez</strong> - 90 lei
+                </li>
+            </ul>
+        </section>
+          <section class="contact">
+    <h2>Comandă</h2>
+    <p>Pentru comanda, lăsați un email aici cu ce doriți:</p>
+    <form action="send_email.php" method="post">
+        <label for="service">Alegeți serviciul:</label>
+        <select id="service" name="service" required>
+            <option value="Stick pentru instalare Windows/Linux">Stick pentru instalare Windows/Linux - 20 lei</option>
+            <option value="Activez Windows 10/11">Activez Windows 10/11 - 100 lei</option>
+            <option value="Instalez Windows + Activez">Instalez Windows + Activez - 90 lei</option>
+        </select>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <input type="submit" value="Trimite comanda">
+    </form>
+</section>
+
+            <h2>Comandă</h2>
+            <p>Pentru comanda, lăsați un email aici cu ce doriți:</p>
+            <a href="mailto:winlin@guerrillamailblock.com">winlin@guerrillamailblock.com</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Servicii IT. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
